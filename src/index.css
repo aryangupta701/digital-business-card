@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: #23252C;
+    text-align: center;
+    font-family: Inter, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#info-name{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
+
+#frontend-dev{
+    color: #F3BF99;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+#my-website{
+    color: #F5F5F5;
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+button{
+    padding: 9px;
+    font-size: 14px;
+    width: 115px;
+    height: 34px;
+    margin: 9px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+}
+
+#email-btn{
+    color: #374151;
+}
+
+#email-btn > img{
+    margin-right: 10px;
+}
+
+#linkedIn-btn{
+    background-color: #5093E2;
+    line-height: 20px;
+}
+
+#linkedIn-btn > img{
+    margin-right: 10px;
+}
+
+.card{
+    width: 318px;
+    background-color: #1A1B21;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* padding-top0px; */
+}
+
