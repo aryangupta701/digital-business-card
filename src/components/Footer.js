@@ -1,8 +1,21 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div>Footer</div>
+    <div id="footer-tag">
+      <a href>
+        <img src={props.twitter}/>
+      </a>
+      <a href>
+        <img src={props.facebook}/>
+      </a>
+      <a href>
+        <img src={props.instagram}/>
+      </a>
+      <a href>
+        <img src={props.github}/>
+      </a>
+    </div>
   )
 }
 

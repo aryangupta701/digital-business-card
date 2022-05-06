@@ -2,7 +2,7 @@ import React from 'react'
 
 const Info = (props) => {
   return (
-    <div className="card">
+    <div >
         <img src={props.image} alt="my profile"/>
         <h1 id="info-name">Aryan Gupta</h1>
         <p id="frontend-dev">Frontend Developer</p>
